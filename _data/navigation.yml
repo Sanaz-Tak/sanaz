@@ -12,7 +12,7 @@ main:
     url: /portfolio/
     
   - title: "Publications"
-    url: /publications/ 
+    url: https://scholar.google.com/citations?hl=en&user=IcEFxs4AAAAJ
 
   - title: "Teaching"
     url: /teaching/    
