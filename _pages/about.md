@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi there, I'm Sanaz! (pronounced: Sa-Naaz)"
+title: "Hi there, I'm Sanaz!"
 author_profile: true
 redirect_from: 
   - /about/
