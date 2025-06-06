@@ -12,4 +12,4 @@ I also hold an M.S. in Electrical and Computer Engineering with a specialization
 
 With a strong interdisciplinary background in artificial intelligence and machine learning (AI/ML), neuromorphic computing, computer vision, robotics, and control systems, I have worked across both academia and industry settings, specializing in AI/ML training frameworks and advanced control algorithms. 
 Currently, I serve as an Assistant Teaching Professor of Engineering Design at Penn State University.
-------
+
