@@ -9,13 +9,13 @@ main:
   #  url: /files/CV_2024_Sanaz.pdf
 
   - title: "Research"
-    url: /projects/
+    url: /portfolio/
     
   - title: "Publications"
     url: https://scholar.google.com/citations?hl=en&user=IcEFxs4AAAAJ
 
   - title: "Projects"
-    url: /projects/ 
+    url: /portfolio/ 
 
   - title: "Teaching"
     url: /teaching/    
