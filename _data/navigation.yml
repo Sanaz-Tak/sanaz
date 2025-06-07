@@ -15,7 +15,7 @@ main:
     url: https://scholar.google.com/citations?hl=en&user=IcEFxs4AAAAJ
 
   - title: "Projects"
-    url: /_projects/ 
+    url: /projects/ 
 
   - title: "Teaching"
     url: /teaching/    

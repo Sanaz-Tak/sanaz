@@ -1,16 +1,20 @@
 ---
-title: "Project Rouser"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/SNN-BPTT.png'>"
-collection: projects
+title: "Teaching experience 1"
+collection: teaching
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This is a description of a teaching experience. You can use markdown like any other post.
 
+Heading 1
+======
 
-# Project Rouser:
-## Description
+Heading 2
+======
 
-
-
-# Project D-SELD
-## Description
+Heading 3
+======
