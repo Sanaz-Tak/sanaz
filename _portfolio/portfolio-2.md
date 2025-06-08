@@ -1,6 +1,6 @@
 ---
 title: "D-SELD"
-excerpt: "Exemplar Encoder-Decoder.<br/><img src='../images/PointLCA.pdf'>"
+excerpt: "Exemplar Encoder-Decoder.<br/><img src='../images/PointLCA.png'>"
 collection: portfolio
 ---
 
