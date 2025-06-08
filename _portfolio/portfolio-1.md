@@ -1,6 +1,5 @@
 ---
 title: "Project Rouser"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/SNN-BPTT.png'>"
 collection: portfolio
 ---
 Short description of portfolio item number 1  
