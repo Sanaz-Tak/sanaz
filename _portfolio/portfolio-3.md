@@ -1,8 +1,8 @@
 ---
-title: "PointLCA-Net"
+title: "D-SELD"
 collection: portfolio
 ---
 Energy Efficient Sparse Spatio-Temporal Signal Recognition using Point Clouds:
 ![DSELD Image](../images/DSELD.png)
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Neuromorphic computing has recently gained significant attention as a promising approach for developing energy-efficient, massively parallel computing systems inspired by the spiking behavior of the human brain and natively mapping Spiking Neural Networks (SNNs). Effective training algorithms for SNNs are imperative for increased adoption of low-power platforms; however, SNN training continues to lag behind advances in other classes of ANN. In this project, we reduce this gap by proposing an innovative encoder-decoder technique that leverages sparse coding and the Locally Competitive Algorithm (LCA) to provide an algorithm specifically designed for low-power platforms. Using our proposed Dataset-Scalable Exemplar LCA-Decoder, we reduce the computational demands and memory requirements associated with training SNNs using error backpropagation methods on increasingly larger training sets. We offer a solution that can be scalably applied to datasets of any size. Our results show the highest reported top-1 test accuracy using SNNs on the ImageNet and CIFAR100 datasets, surpassing previous benchmarks. Specifically, we achieved a record top-1 accuracy of 80.75% on ImageNet (ILSVRC2012 validation set) and 79.32% on CIFAR100 using SNNs.
