@@ -4,5 +4,4 @@ collection: portfolio
 ---
 A Threshold Learning Rule for Robust SNN Training on Visual Data:  
 ![](../images/SNN-BPTT.png)
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This work focuses on the significance of learning neuron thresholds alongside weights in SNNs. Our results suggest that promoting threshold from a hyperparameter to a trainable parameter effectively addresses the issue of dead neurons during training. This leads to a more robust training algorithm, resulting in improved convergence, increased test accuracy, and a substantial reduction in the number of training epochs required to achieve viable accuracy.
