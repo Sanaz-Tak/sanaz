@@ -1,6 +1,6 @@
 ---
-title: "PointLCA"
-excerpt: "Short description of portfolio item number 4<br/><img src='/images/SNN-BPTT.png'>"
+title: "PointLCA-Net"
+excerpt: "Using Point Clouds for Energy Efficient Sparse Spatio-Temporal Signal Recognitio <br/><img src='/images/SNN-BPTT.png'>"
 collection: portfolio
 ---
 
