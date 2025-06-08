@@ -1,6 +1,6 @@
 ---
 title: "PointLCA-Net"
-excerpt: "Using Point Clouds for Energy Efficient Sparse Spatio-Temporal Signal Recognitio <br/><img src='/images/SNN-BPTT.png'>"
+excerpt: "Using Point Clouds for Energy Efficient Sparse Spatio-Temporal Signal Recognitio <br/><img src='../images/SNN-BPTT.png'>"
 collection: portfolio
 ---
 
