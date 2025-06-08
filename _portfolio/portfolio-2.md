@@ -1,5 +1,5 @@
 ---
-title: "Project Rouser"
+title: "D-SELD"
 excerpt: "Short description of portfolio item number 2<br/><img src='/images/SNN-BPTT.png'>"
 collection: portfolio
 ---

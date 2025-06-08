@@ -1,6 +1,6 @@
 ---
-title: "Project Rouser"
-excerpt: "Short description of portfolio item number 3<br/><img src='/images/SNN-BPTT.png'>"
+title: "PointLCA"
+excerpt: "Short description of portfolio item number 4<br/><img src='/images/SNN-BPTT.png'>"
 collection: portfolio
 ---
 
