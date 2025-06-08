@@ -1,6 +1,6 @@
 ---
 title: "ViT-LCA"
-excerpt: "A Low-Power Approach for Vision Transformers. <br/><img src='{{ site.baseurl }}/images/SNN-BPTT.png'>"
+excerpt: "A Low-Power Approach for Vision Transformers. <br/><img src='/images/SNN-BPTT.png'>"
 collection: portfolio
 ---
 
