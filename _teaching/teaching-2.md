@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 collection: teaching
+layout: single
 ---
 
 ### 📘 CMPSC 474 / CMPEN 441 – Operating Systems
