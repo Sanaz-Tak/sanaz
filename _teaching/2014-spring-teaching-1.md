@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2017-2021
 venue: "Penn State Erie, Computer Science and Software Engineering"
-date: 2017-2021
+date: 2017
 location: "Erie, PA"
 ---
 
