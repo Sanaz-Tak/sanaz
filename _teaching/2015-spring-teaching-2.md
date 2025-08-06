@@ -1,20 +1,31 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching & Advising"
 collection: teaching
-type: "Undergraduate courses"
-permalink: /teaching/2015-spring-teaching-2
-venue: "Penn State University, Engineering Design and Innovation"
-date: 2021-Current
-location: "State College, PA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+### 📘 Courses Taught
 
-Heading 1
-======
+- **CMPSC 474 / CMPEN 441 – Operating Systems**  
+  Focused on process management, synchronization, memory management, and OS-level programming.
 
-Heading 2
-======
+- **CMPSC 312 – Computer Organization and Architecture**  
+  Covered instruction set architectures, pipelining, memory hierarchy, and performance optimization.
 
-Heading 3
-======
+- **CMPEN 270 – Digital Design, Theory and Practice**  
+  Explored combinational and sequential logic, state machines, and HDL implementation.
+
+- **CMPSC 200 – Programming for Engineers with MATLAB**  
+  Introduced problem-solving techniques and numerical methods using MATLAB.
+
+- **CMPSC 121 / CMPSC 201 – Programming for Engineers with C/C++ and Python**  
+  Taught structured programming, data structures, and software engineering practices using C, C++, and Python.
+
+---
+
+### 🎓 Advising
+
+- **Senior Design Capstone Advisor**  
+  Mentored multidisciplinary student teams on industry-sponsored projects with organizations such as:
+  - LORD Aerospace & Defense  
+  - Northrop Grumman  
+  - Additional defense and technology partners
