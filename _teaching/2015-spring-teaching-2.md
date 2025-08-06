@@ -2,9 +2,9 @@
 title: "Teaching experience 2"
 collection: teaching
 type: "Undergraduate courses"
-permalink: /teaching/2021-Current
+permalink: /teaching/2015-spring-teaching-2
 venue: "Penn State University, Engineering Design and Innovation"
-date: 2015-01-01
+date: 2021-Current
 location: "State College, PA"
 ---
 
