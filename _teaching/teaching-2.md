@@ -2,12 +2,11 @@
 title: "Teaching"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/teaching-2
 venue: "University 1, Department"
 date: 2014-01-01
 location: "City, Country"
 ---
-
 ### 📘 CMPSC 474 / CMPEN 441 – Operating Systems
 Focused on process management, synchronization, memory management, and OS-level programming.
 
