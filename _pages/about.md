@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Sanaz (pronounced: Saa-Naaz) M. Takaghaj"
+title: "About Sanaz M. Takaghaj (pronounced: Saa-Naaz)"
 author_profile: true
 redirect_from: 
   - /about/
