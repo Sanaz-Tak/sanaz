@@ -1,5 +1,5 @@
 ---
-title: "PointLCA-Net (Presented at IJCNN 2025"
+title: "PointLCA-Net (Presented at IJCNN 2025)"
 collection: portfolio
 ---
 PointLCA-Net leverages the strengths of PointNets for extracting robust features from input point sets, while utilizing the efficiency of Exemplar LCA Encoder-Decoder for low-power Computer Vision applications.  
