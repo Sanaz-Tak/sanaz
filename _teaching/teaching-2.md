@@ -17,3 +17,6 @@ Covered instruction set architectures, pipelining, memory hierarchy, and perform
 
 ### 📘 CMPSC 121 / CMPSC 201 – Programming for Engineers with C/C++ and Python  
   Taught structured programming, data structures, and software engineering practices using C, C++, and Python.
+
+### 📘 EDSGN 100 – Cornerstone Engineering Design
+  Hands-on team projects, fostering skills in communication, teamwork, and ethical decision-making while emphasizing technically feasible, economically viable, and desirable engineering solutions.
