@@ -2,9 +2,9 @@
 title: "Teaching experience 1"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2017-2021
+permalink: /teaching/2014-spring-teaching-1
 venue: "Penn State Erie, Computer Science and Software Engineering"
-date: 2017
+date: 2017-2021
 location: "Erie, PA"
 ---
 
