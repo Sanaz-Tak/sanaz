@@ -1,5 +1,5 @@
 ---
-title: "Teaching & Advising"
+title: "Teaching"
 collection: teaching
 ---
 
@@ -19,8 +19,6 @@ collection: teaching
 
 - **CMPSC 121 / CMPSC 201 – Programming for Engineers with C/C++ and Python**  
   Taught structured programming, data structures, and software engineering practices using C, C++, and Python.
-
----
 
 ### 🎓 Advising
 
