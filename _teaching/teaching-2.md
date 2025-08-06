@@ -2,6 +2,10 @@
 title: "Teaching"
 collection: teaching
 layout: single
+type: "Undergraduate course"
+venue: "University 1, Department"
+date: 2017-01-01
+location: "City, Country"
 ---
 
 ### 📘 CMPSC 474 / CMPEN 441 – Operating Systems
