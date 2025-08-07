@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-{{ content | markdownify }}
+{% if page.author_profile or post.author_profile %}
+  {% include author-profile.html %}
+{% endif %}
 
 {% include base_path %}
 
