@@ -3,7 +3,7 @@
   max-width: 175px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: 35% 20% !important; /* Less zoomed, focus on left side of face */
+  object-position: 25% 20% !important; /* More zoomed toward left side */
   width: 175px !important;
   height: 175px !important;
 }
@@ -14,7 +14,7 @@
   width: 200px !important;
   height: 200px !important;
   object-fit: cover !important;
-  object-position: 35% 20% !important; /* Less zoomed, focus on left side of face */
+  object-position: 25% 20% !important; /* More zoomed toward left side */
 }
 
 /* Avatar zoom with transform - fixed container sizing */
@@ -22,11 +22,11 @@
   overflow: hidden !important;
   width: 175px !important;
   height: 175px !important;
-  border-radius: 50% !important;
+  border-radius: 60% !important; /* Make it oval instead of circular */
 }
 
 .author__avatar img {
-  transform: scale(1.2) translateX(-8%) translateY(-12%) !important; /* Reduced zoom and movement */
+  transform: scale(1.3) translateX(-15%) translateY(-10%) !important; /* More zoom and left movement */
   object-position: center center !important;
   width: 100% !important;
   height: 100% !important;
