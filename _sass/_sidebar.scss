@@ -92,6 +92,8 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: center 30%; /* Zoom in on the face area */
 
     @include breakpoint($large) {
       padding: 5px;
