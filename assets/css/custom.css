@@ -6,6 +6,7 @@
   object-position: 25% center !important; /* Focus on left side of face */
   width: 175px !important;
   height: 175px !important;
+  transform: scale(1.3) !important; /* Add zoom effect */
 }
 
 /* Alternative: Make avatar larger and more zoomed */
@@ -16,14 +17,29 @@
   border-radius: 50% !important;
   object-fit: cover !important;
   object-position: 25% center !important; /* Focus on left side of face */
+  transform: scale(1.3) !important; /* Add zoom effect */
 }
 
-/* Avatar container */
+/* Avatar container - ensure perfect circle */
 .author__avatar {
   overflow: hidden !important;
   width: 175px !important;
   height: 175px !important;
   border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Force perfect circle on all avatar images */
+.author__avatar img,
+.sidebar .author__avatar img {
+  border-radius: 50% !important;
+  width: 175px !important;
+  height: 175px !important;
+  object-fit: cover !important;
+  object-position: 25% center !important;
+  transform: scale(1.3) !important;
 }
 
 /* Full-width layout ONLY for Portfolio and Teaching pages */
