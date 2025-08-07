@@ -7,8 +7,13 @@ venue: "University 1, Department"
 date: 2014-01-01
 location: "City, Country"
 ---
-### 🎓 Advising Senior Design Capstone Advisor
+### 🎓 EDSGN 460W: Multidisciplinary Capstone Design Project 
+### 🎓 CMPSC 484 / CMPSC 485W: Computer Science Senior Project 
   Mentored multidisciplinary student teams on industry-sponsored projects with organizations such as:
-  - LORD Aerospace & Defense  
-  - Northrop Grumman  
-  - Additional defense and technology partners
+  - LORD Aerospace & Defense
+  - NASA
+  - Northrop Grumman
+  - ARL
+  - AFRL
+  - Boeing 
+
