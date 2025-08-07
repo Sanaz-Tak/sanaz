@@ -81,9 +81,14 @@
 .teaching-page {
   @media screen and (min-width: 1024px) {
     width: 100% !important;
-    max-width: 1200px !important;
+    max-width: 1400px !important; /* Increased max-width for large monitors */
     margin: 0 auto !important;
-    padding: 0 2em !important;
+    padding: 0 3em !important; /* Increased padding */
+  }
+  
+  @media screen and (min-width: 1920px) {
+    max-width: 1600px !important; /* Even larger for very wide monitors */
+    padding: 0 4em !important;
   }
 }
 
@@ -92,9 +97,24 @@
 .teaching-page .archive__item {
   @media screen and (min-width: 1024px) {
     margin-bottom: 2em !important;
-    padding: 1.5em !important;
+    padding: 2em !important; /* Increased padding */
     border: 1px solid #e9e9e9 !important;
     border-radius: 8px !important;
     background-color: #fafafa !important;
+  }
+}
+
+/* Center content better on large monitors */
+.no-sidebar-layout .archive {
+  @media screen and (min-width: 1024px) {
+    width: 100% !important;
+    max-width: 1400px !important; /* Increased max-width */
+    margin: 0 auto !important;
+    padding: 0 2em !important;
+  }
+  
+  @media screen and (min-width: 1920px) {
+    max-width: 1600px !important; /* Even larger for very wide monitors */
+    padding: 0 3em !important;
   }
 } 
