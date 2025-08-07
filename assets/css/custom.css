@@ -47,14 +47,14 @@
   width: 228px !important; /* 175px * 1.3 = 228px for zoom effect */
   height: 228px !important;
   max-width: 228px !important;
-  object-position: 35% center !important; /* Adjust position for larger image */
+  object-position: 20% 60% !important; /* More left and lower */
 }
 
 .sidebar .author__avatar img {
   width: 260px !important; /* 200px * 1.3 = 260px for zoom effect */
   height: 260px !important;
   max-width: 260px !important;
-  object-position: 35% center !important; /* Adjust position for larger image */
+  object-position: 20% 60% !important; /* More left and lower */
 }
 
 /* Full-width layout ONLY for Portfolio and Teaching pages */
