@@ -1,8 +1,9 @@
 ---
 title: "Teaching"
 collection: teaching
-date: 2014-01-01
+permalink: /teaching/teaching-2
 ---
+
 ### 📘 CMPSC 474 / CMPEN 441 – Operating Systems
 Focused on process management, synchronization, memory management, and OS-level programming.
 
