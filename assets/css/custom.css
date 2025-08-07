@@ -3,7 +3,7 @@
   max-width: 175px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: center 10% !important; /* Much more zoomed in */
+  object-position: 30% 15% !important; /* Focus on left side of face */
   width: 175px !important;
   height: 175px !important;
 }
@@ -14,17 +14,36 @@
   width: 200px !important;
   height: 200px !important;
   object-fit: cover !important;
-  object-position: center 10% !important; /* Much more zoomed in */
+  object-position: 30% 15% !important; /* Focus on left side of face */
 }
 
-/* Alternative zoom approach using transform for better control */
+/* Avatar zoom with transform - focus on left side */
 .author__avatar {
   overflow: hidden !important;
 }
 
 .author__avatar img {
-  transform: scale(1.4) translateY(-20%) !important; /* Zoom and move up */
+  transform: scale(1.6) translateX(-15%) translateY(-25%) !important; /* Zoom and move left and up */
   object-position: center center !important;
+}
+
+/* Force full-width layout for Portfolio and Teaching pages */
+/* Target the main container directly */
+#main {
+  @media screen and (min-width: 1024px) {
+    max-width: 100% !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+}
+
+/* Target archive container */
+.archive {
+  @media screen and (min-width: 1024px) {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
 }
 
 /* Full-width layout for Portfolio and Teaching pages */
@@ -41,12 +60,23 @@
 
 /* Adjust archive items for better spacing */
 .portfolio-page .archive__item,
-.teaching-page .archive__item {
+.teaching-page .archive__item,
+.archive__item {
   @media screen and (min-width: 1024px) {
     margin-bottom: 2em !important;
     padding: 1.5em !important;
     border: 1px solid #e9e9e9 !important;
     border-radius: 8px !important;
     background-color: #fafafa !important;
+  }
+}
+
+/* Override any existing grid layouts */
+.page {
+  @media screen and (min-width: 1024px) {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 } 
