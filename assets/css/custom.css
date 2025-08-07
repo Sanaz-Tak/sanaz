@@ -44,17 +44,17 @@
 
 /* Alternative zoom approach - make image much larger to focus on face */
 .author__avatar img {
-  width: 500px !important; /* Maximum zoom */
-  height: 500px !important;
-  max-width: 500px !important;
-  object-position: 5% 5% !important; /* Maximum left and centered vertically */
+  width: 250px !important; /* Slight zoom */
+  height: 250px !important;
+  max-width: 250px !important;
+  object-position: 20% 15% !important; /* Left and upper */
 }
 
 .sidebar .author__avatar img {
-  width: 550px !important; /* Maximum zoom */
-  height: 550px !important;
-  max-width: 550px !important;
-  object-position: 5% 5% !important; /* Maximum left and centered vertically */
+  width: 300px !important; /* Slight zoom */
+  height: 300px !important;
+  max-width: 300px !important;
+  object-position: 20% 15% !important; /* Left and upper */
 }
 
 /* Portfolio title styling */
