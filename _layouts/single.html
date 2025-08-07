@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<h1>{{ page.title }}</h1>
+{{ content | markdownify }}
+
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
