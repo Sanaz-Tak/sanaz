@@ -47,14 +47,14 @@
   width: 500px !important; /* Maximum zoom */
   height: 500px !important;
   max-width: 500px !important;
-  object-position: 5% 50% !important; /* Maximum left and centered vertically */
+  object-position: 5% 40% !important; /* Maximum left and centered vertically */
 }
 
 .sidebar .author__avatar img {
   width: 550px !important; /* Maximum zoom */
   height: 550px !important;
   max-width: 550px !important;
-  object-position: 5% 50% !important; /* Maximum left and centered vertically */
+  object-position: 5% 40% !important; /* Maximum left and centered vertically */
 }
 
 /* Portfolio title styling */
