@@ -17,14 +17,20 @@
   object-position: 35% 20% !important; /* Less zoomed, focus on left side of face */
 }
 
-/* Avatar zoom with transform - less aggressive */
+/* Avatar zoom with transform - fixed container sizing */
 .author__avatar {
   overflow: hidden !important;
+  width: 175px !important;
+  height: 175px !important;
+  border-radius: 50% !important;
 }
 
 .author__avatar img {
-  transform: scale(1.3) translateX(-10%) translateY(-15%) !important; /* Less zoom and movement */
+  transform: scale(1.2) translateX(-8%) translateY(-12%) !important; /* Reduced zoom and movement */
   object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
 }
 
 /* Full-width layout ONLY for Portfolio and Teaching pages */
