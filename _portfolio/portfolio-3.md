@@ -1,5 +1,5 @@
 ---
-title: "D-SELD (Published in Neuromorphic Computing and Engineering Journal)"
+title: "D-SELD (Published in Neuromorphic Computing and Engineering Journal):"
 collection: portfolio
 ---
 ![](../images/DSELD.png)

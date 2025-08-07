@@ -1,5 +1,5 @@
 ---
-title: "PointLCA-Net (Presented at IJCNN 2025)"
+title: "PointLCA-Net (Presented at IJCNN 2025):"
 collection: portfolio
 ---
 ![](../images/PointLCA.png)

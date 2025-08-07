@@ -1,5 +1,5 @@
 ---
-title: "ViT-LCA (Presented at AICAS 2025)"
+title: "ViT-LCA (Presented at AICAS 2025):"
 collection: portfolio
 ---
 ![](../images/ViTLCA.png)

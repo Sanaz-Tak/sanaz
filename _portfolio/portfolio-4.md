@@ -1,5 +1,5 @@
 ---
-title: "Rouser: A Threshold Learning Rule for Robust SNN Training (Presented at AICAS 2025)"
+title: "Rouser: A Threshold Learning Rule for Robust SNN Training (Presented at AICAS 2025):"
 collection: portfolio
 ---
 ![](../images/SNN-BPTT.png)
