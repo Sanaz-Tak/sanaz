@@ -1,5 +1,5 @@
 ---
-title: "Advising"
+title: "Advising:"
 collection: teaching
 permalink: /teaching/teaching-1
 ---
