@@ -3,7 +3,7 @@
   max-width: 175px !important;
   border-radius: 50% !important; /* Back to circular for natural look */
   object-fit: cover !important;
-  object-position: 25% 20% !important; /* More zoomed toward left side */
+  object-position: 20% 20% !important; /* More zoomed toward left side */
   width: 175px !important;
   height: 175px !important;
 }
@@ -15,7 +15,7 @@
   height: 200px !important;
   border-radius: 50% !important; /* Back to circular for natural look */
   object-fit: cover !important;
-  object-position: 25% 20% !important; /* More zoomed toward left side */
+  object-position: 20% 20% !important; /* More zoomed toward left side */
 }
 
 /* Avatar zoom with transform - fixed container sizing */
@@ -27,7 +27,7 @@
 }
 
 .author__avatar img {
-  transform: scale(1.3) translateX(-15%) translateY(-10%) !important; /* More zoom and left movement */
+  transform: scale(1.4) translateX(-25%) translateY(-8%) !important; /* Much more left movement and zoom */
   object-position: center center !important;
   width: 100% !important;
   height: 100% !important;
