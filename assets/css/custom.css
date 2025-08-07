@@ -44,17 +44,28 @@
 
 /* Alternative zoom approach - make image much larger to focus on face */
 .author__avatar img {
-  width: 350px !important; /* Much larger for more zoom */
-  height: 350px !important;
-  max-width: 350px !important;
-  object-position: 15% 70% !important; /* Even more left and lower */
+  width: 400px !important; /* Even larger for more zoom */
+  height: 400px !important;
+  max-width: 400px !important;
+  object-position: 10% 70% !important; /* Much more left and lower */
 }
 
 .sidebar .author__avatar img {
-  width: 400px !important; /* Much larger for more zoom */
-  height: 400px !important;
-  max-width: 400px !important;
-  object-position: 15% 70% !important; /* Even more left and lower */
+  width: 450px !important; /* Even larger for more zoom */
+  height: 450px !important;
+  max-width: 450px !important;
+  object-position: 10% 70% !important; /* Much more left and lower */
+}
+
+/* Portfolio title styling */
+.portfolio-title {
+  text-align: center !important;
+  margin-bottom: 2em !important;
+  color: #333 !important;
+  font-size: 2.5em !important;
+  font-weight: 300 !important;
+  border-bottom: 2px solid #e9e9e9 !important;
+  padding-bottom: 0.5em !important;
 }
 
 /* Full-width layout ONLY for Portfolio and Teaching pages */
