@@ -1,9 +1,9 @@
 /* Custom avatar styling with higher specificity */
 .author__avatar img {
   max-width: 175px !important;
-  border-radius: 50% !important; /* Back to circular for natural look */
+  border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: 20% 20% !important; /* More zoomed toward left side */
+  object-position: 25% center !important; /* Focus on left side of face */
   width: 175px !important;
   height: 175px !important;
 }
@@ -13,26 +13,17 @@
   max-width: 200px !important;
   width: 200px !important;
   height: 200px !important;
-  border-radius: 50% !important; /* Back to circular for natural look */
+  border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: 20% 20% !important; /* More zoomed toward left side */
+  object-position: 25% center !important; /* Focus on left side of face */
 }
 
-/* Avatar zoom with transform - fixed container sizing */
+/* Avatar container */
 .author__avatar {
   overflow: hidden !important;
   width: 175px !important;
-  height: 175px !important; /* Back to square for natural oval */
-  border-radius: 50% !important; /* Perfect circle - most natural */
-}
-
-.author__avatar img {
-  transform: scale(1.4) translateX(-25%) translateY(-8%) !important; /* Much more left movement and zoom */
-  object-position: center center !important;
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  border-radius: 50% !important; /* Perfect circle */
+  height: 175px !important;
+  border-radius: 50% !important;
 }
 
 /* Full-width layout ONLY for Portfolio and Teaching pages */
