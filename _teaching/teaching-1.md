@@ -1,8 +1,8 @@
 ---
 title: "Advising"
 collection: teaching
-type: "Undergraduate course"
 permalink: /teaching/teaching-1
+date: 2014-01-01
 ---
 ### 🎓 EDSGN 460W: Multidisciplinary Capstone Design Project 
 ### 🎓 CMPSC 484 / CMPSC 485W: Computer Science Senior Project 
