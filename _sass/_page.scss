@@ -412,12 +412,12 @@
   text-transform: uppercase;
 }
 
-/* Full-width layout for Portfolio and Teaching pages */
+/* Full-width layout for Portfolio and Teaching pages - Scalable for large monitors */
 .no-sidebar-layout {
   @include breakpoint($large) {
-    @include span(12 of 12); /* Use full width instead of 10 of 12 */
-    @include prefix(0 of 12); /* Remove left prefix */
-    @include suffix(0 of 12); /* Remove right suffix */
+    @include span(12 of 12); /* Use full width */
+    @include prefix(0 of 12);
+    @include suffix(0 of 12);
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-left: 2em !important;
@@ -425,9 +425,29 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: 100% !important;
+    max-width: 1400px !important; /* Reasonable max-width for readability */
+    margin: 0 auto !important;
     padding-left: 3em !important;
     padding-right: 3em !important;
+  }
+
+  /* For very large monitors (26" and above) */
+  @media screen and (min-width: 1600px) {
+    max-width: 1600px !important;
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+  }
+
+  @media screen and (min-width: 1920px) {
+    max-width: 1800px !important;
+    padding-left: 5em !important;
+    padding-right: 5em !important;
+  }
+
+  @media screen and (min-width: 2560px) {
+    max-width: 2000px !important;
+    padding-left: 6em !important;
+    padding-right: 6em !important;
   }
 }
 
@@ -440,7 +460,7 @@
   }
 }
 
-/* Portfolio and Teaching page specific styling */
+/* Portfolio and Teaching page specific styling - Scalable */
 .portfolio-page,
 .teaching-page {
   @include breakpoint($large) {
@@ -449,15 +469,49 @@
     margin: 0 !important;
     padding: 0 !important;
   }
+
+  /* Responsive grid for archive items */
+  .archive__item {
+    @include breakpoint($large) {
+      margin-bottom: 2em !important;
+      padding: 2em !important;
+      border: 1px solid #e9e9e9 !important;
+      border-radius: 8px !important;
+      background-color: #fafafa !important;
+    }
+
+    /* For larger screens, consider multi-column layout */
+    @media screen and (min-width: 1400px) {
+      padding: 2.5em !important;
+    }
+
+    @media screen and (min-width: 1920px) {
+      padding: 3em !important;
+    }
+  }
 }
 
-/* Full-width archive for Portfolio and Teaching */
-.full-width-archive {
-  @include breakpoint($large) {
-    @include span(12 of 12);
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+/* Optional: Multi-column layout for very large screens */
+@media screen and (min-width: 1600px) {
+  .portfolio-page,
+  .teaching-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 2em;
+    
+    .archive__item {
+      margin-bottom: 0 !important; /* Remove margin since grid handles spacing */
+    }
+  }
+}
+
+/* Ensure content remains readable on ultra-wide screens */
+@media screen and (min-width: 2560px) {
+  .no-sidebar-layout {
+    .archive__item {
+      max-width: 800px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
   }
 }
