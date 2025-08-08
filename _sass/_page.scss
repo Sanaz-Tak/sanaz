@@ -412,41 +412,43 @@
   text-transform: uppercase;
 }
 
-/* Responsive width utilization for Portfolio and Teaching pages */
+/* Responsive width utilization for Portfolio and Teaching pages - FORCE OVERRIDE */
 .no-sidebar-layout {
   @include breakpoint($large) {
-    @include span(12 of 12); /* Use full width */
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 1em;
-    padding-right: 1em;
+    @include span(12 of 12);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    width: 100% !important;
+    max-width: none !important;
   }
 
   @include breakpoint($x-large) {
-    max-width: 1400px; /* Good for most large monitors */
-    margin: 0 auto;
-    padding-left: 2em;
-    padding-right: 2em;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
   }
 
   /* For very large monitors (26" and above) */
   @media screen and (min-width: 1600px) {
-    max-width: 1600px;
-    padding-left: 3em;
-    padding-right: 3em;
+    max-width: 1600px !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
   }
 
   @media screen and (min-width: 1920px) {
-    max-width: 1800px;
-    padding-left: 4em;
-    padding-right: 4em;
+    max-width: 1800px !important;
+    padding-left: 4em !important;
+    padding-right: 4em !important;
   }
 
   /* For ultra-wide monitors */
   @media screen and (min-width: 2560px) {
-    max-width: 2000px;
-    padding-left: 5em;
-    padding-right: 5em;
+    max-width: 2000px !important;
+    padding-left: 5em !important;
+    padding-right: 5em !important;
   }
 }
 

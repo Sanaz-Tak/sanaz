@@ -2,4 +2,4 @@
 
 Personal academic website built with Jekyll and GitHub Pages.
 
-<!-- Rebuild trigger: Repository was made private and public again -->
+<!-- Rebuild trigger: Layout improvements for Portfolio and Teaching pages -->
