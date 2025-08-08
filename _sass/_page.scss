@@ -411,3 +411,53 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Full-width layout for Portfolio and Teaching pages */
+.no-sidebar-layout {
+  @include breakpoint($large) {
+    @include span(12 of 12); /* Use full width instead of 10 of 12 */
+    @include prefix(0 of 12); /* Remove left prefix */
+    @include suffix(0 of 12); /* Remove right suffix */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+
+  @include breakpoint($x-large) {
+    max-width: 100% !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+  }
+}
+
+/* Ensure archive content uses full width */
+.no-sidebar-layout .archive {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* Portfolio and Teaching page specific styling */
+.portfolio-page,
+.teaching-page {
+  @include breakpoint($large) {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* Full-width archive for Portfolio and Teaching */
+.full-width-archive {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
