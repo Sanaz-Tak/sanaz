@@ -43,6 +43,18 @@
   }
 }
 
+/* Pronunciation subtitle styling */
+.page__subtitle {
+  margin-top: -0.3em !important;
+  margin-bottom: 1.5em !important;
+  font-size: 0.75em !important;
+  font-weight: 300 !important;
+  color: #666 !important;
+  font-style: italic !important;
+  text-align: center !important;
+  letter-spacing: 0.3px !important;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
