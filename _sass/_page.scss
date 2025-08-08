@@ -479,3 +479,37 @@
     }
   }
 }
+
+/* Consistent text alignment across all pages - justified */
+.page__content,
+.archive__item,
+.archive__item-excerpt,
+.page__meta,
+.page__date,
+.archive__subtitle {
+  text-align: justify !important;
+}
+
+/* Ensure all paragraphs and text elements are justified */
+p, li, dt, dd, blockquote {
+  text-align: justify !important;
+}
+
+/* Keep headings left-aligned for better readability */
+h1, h2, h3, h4, h5, h6,
+.archive__item-title {
+  text-align: left !important;
+}
+
+/* Ensure archive items maintain consistent alignment */
+.archive__item {
+  text-align: justify !important;
+  
+  p, li, dt, dd, blockquote {
+    text-align: justify !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left !important;
+  }
+}
