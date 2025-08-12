@@ -1,0 +1,13 @@
+---
+layout: archive-no-title
+title: "Teaching"
+permalink: /teaching/
+---
+
+{% include base_path %}
+
+<div class="teaching-page">
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>

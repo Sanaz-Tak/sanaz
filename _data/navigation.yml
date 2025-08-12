@@ -1,0 +1,30 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+
+main:
+  #- title: "CV"
+  #  url: /files/CV_2024_Sanaz.pdf
+
+  - title: "Portfolio"
+    url: /portfolio/
+    
+  - title: "Publications"
+    url: https://scholar.google.com/citations?hl=en&user=IcEFxs4AAAAJ
+
+  #- title: "Projects"
+  #  url: /portfolio/ 
+
+  - title: "Teaching"
+    url: /teaching/    
+
+  #- title: "Talks"
+  #  url: /talks/   
+        
+  #- title: "Blog Posts"
+  #  url: /year-archive/
+    
+  #- title: "Guide"
+  #  url: /markdown/
