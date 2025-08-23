@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: homepage
 permalink: /
 title: "Dr. Sanaz M. Takaghaj" 
 subtitle: "pronounced: Saa-Naaz"
