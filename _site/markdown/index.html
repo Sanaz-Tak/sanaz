@@ -32,10 +32,12 @@
 <meta property="og:title" content="Markdown">
 
 
-  <link rel="canonical" href="http://0.0.0.0:4000/markdown/">
-  <meta property="og:url" content="http://0.0.0.0:4000/markdown/">
+  <link rel="canonical" href="https://sanaz-tak.github.io/sanaz/markdown/">
+  <meta property="og:url" content="https://sanaz-tak.github.io/sanaz/markdown/">
 
 
+
+  <meta property="og:description" name="description" content="Locations of key files/directories  Basic config options: _config.yml  Top navigation bar config: _data/navigation.yml  Single pages: _pages/  Collections of pages are .md or .html files in:          _publications/      _portfolio/      _posts/      _teaching/      _talks/        Footer: _includes/footer.html  Static files (like PDFs): /files/  Profile image (can set in _config.yml): images/profile.pngTips and hints  Name a file “.md” to have it render in markdown, name it “.html” to render in HTML.  Go to the commit list (on your repo) to find the last version Github built with Jekyll.          Green check: successful build      Orange circle: building      Red X: error      No icon: not built        Academic Pages uses Jekyll Kramdown, GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences.          Some of emoji supported on GitHub should be supposed via the Jemoji plugin :computer:.      The best list of the supported emoji can be found in the Emojis for Jekyll via Jemoji blog post.      Resources  Liquid syntax guide  MathJax DocumentationMathJaxSupport for MathJax Version 3.0 is included in the template:[\displaylines{\nabla \cdot E= \frac{\rho}{\epsilon_0} \\nabla \cdot B=0 \\nabla \times E= -\partial_tB \\nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)}]The default delimiters of $$...$$ and \\[...\\] are supported for displayed mathematics, while \\(...\\) should be used for in-line mathematics (ex., \(a^2 + b^2 = c^2\))Note that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although some workarounds exist.Markdown guideAcademic Pages uses kramdown for Markdown rendering, which has some differences from other Markdown implementations such as GitHub’s. In addition to this guide, please see the kramdown Syntax page for full documentation.Header threeHeader fourHeader fiveHeader sixBlockquotesSingle line blockquote:  Quotes are cool.TablesTable 1            Entry      Item                         John Doe      2016      Description of the item in the list              Jane Doe      2019      Description of the item in the list              Doe Doe      2022      Description of the item in the list      Table 2            Header1      Header2      Header3                  cell1      cell2      cell3              cell4      ce                     ll5      cell6                         cell1      cell2      cell3              cell4      cell5      cell6                  Foot1      Foot2      Foot3      Definition Lists  Definition List Title  Definition list division.  Startup  A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.  #dowork  Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.  Do It Live  I’ll let Bill O’Reilly explain this one.Unordered Lists (Nested)  List item one          List item one                  List item one          List item two          List item three          List item four                    List item two      List item three      List item four        List item two  List item three  List item fourOrdered List (Nested)  List item one          List item one                  List item one          List item two          List item three          List item four                    List item two      List item three      List item four        List item two  List item three  List item fourButtonsMake any link standout more when applying the .btn class.NoticesBasic notices or call-outs are supported using the following syntax:**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.{: .notice}which wil render as:Watch out! You can also add notices by appending {: .notice} to the line following paragraph.FootnotesFootnotes can be useful for clarifying points in the text, or citing information.1 Markdown support numeric footnotes, as well as text as long as the values are unique.2This is the regular text.[^1] This is more regular text.[^note][^1]: This is the footnote itself.[^note]: This is another footnote.HTML TagsAddress Tag  1 Infinite Loop Cupertino, CA 95014 United StatesAnchor Tag (aka. Link)This is an example of a link.Abbreviation TagThe abbreviation CSS stands for “Cascading Style Sheets”.Cite Tag“Code is poetry.” —AutomatticCode TagYou will learn later on in these tests that word-wrap: break-word; will be your best friend.You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:print(&#39;Hello World!&#39;)or R:print(&quot;Hello World!&quot;, quote = FALSE)Details Tag (collapsible sections)The HTML &lt;details&gt; tag works well with Markdown and allows you to include collapsible sections, see W3Schools for more information on how to use the tag.  Collapsed by default  This section was collapsed by default!The source code:&lt;details&gt;  &lt;summary&gt;Collapsed by default&lt;/summary&gt;  This section was collapsed by default!&lt;/details&gt;Or, you can leave a section open by default by including the open attribute in the tag:  Open by default  This section is open by default thanks to open in the &lt;details open&gt; tag!Emphasize TagThe emphasize tag should italicize text.Insert TagThis tag should denote inserted text.Keyboard TagThis scarcely known tag emulates keyboard text, which is usually styled like the &lt;code&gt; tag.Preformatted TagThis tag styles large blocks of code..post-title {  margin: 0 0 5px;  font-weight: bold;  font-size: 38px;  line-height: 1.2;  and here&#39;s a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;}Quote TagDevelopers, developers, developers… –Steve BallmerStrike TagThis tag will let you strikeout text.Strong TagThis tag shows bold text.Subscript TagGetting our science styling on with H2O, which should push the “2” down.Superscript TagStill sticking with science and Isaac Newton’s E = MC2, which should lift the 2 up.Variable TagThis allows you to denote variables.FootnotesThe footnotes in the page will be returned following this line, return to the section on Markdown Footnotes.            Such as this footnote. &#8617;              When using text for footnotes markers, no spaces are permitted in the name. &#8617;      ">
 
 
 
@@ -60,8 +62,8 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Person",
-      "name" : "Your Name",
-      "url" : "http://0.0.0.0:4000",
+      "name" : "Sanaz M. Takaghaj",
+      "url" : "https://sanaz-tak.github.io/sanaz",
       "sameAs" : null
     }
   </script>
@@ -74,7 +76,7 @@
 <!-- end SEO -->
 
 
-<link href="http://0.0.0.0:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Sanaz's Homepage Feed">
+<link href="https://sanaz-tak.github.io/sanaz/feed.xml" type="application/atom+xml" rel="alternate" title="Sanaz's Homepage Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -86,35 +88,35 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/main.css">
-<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/custom.css">
+<link rel="stylesheet" href="https://sanaz-tak.github.io/sanaz/assets/css/main.css">
+<link rel="stylesheet" href="https://sanaz-tak.github.io/sanaz/assets/css/custom.css">
 
 <meta http-equiv="cleartype" content="on">
     
 
 <!-- start custom head snippets -->
 
-<link rel="apple-touch-icon" sizes="57x57" href="http://0.0.0.0:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="60x60" href="http://0.0.0.0:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="72x72" href="http://0.0.0.0:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="76x76" href="http://0.0.0.0:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="114x114" href="http://0.0.0.0:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="120x120" href="http://0.0.0.0:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="144x144" href="http://0.0.0.0:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="152x152" href="http://0.0.0.0:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="180x180" href="http://0.0.0.0:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
-<link rel="manifest" href="http://0.0.0.0:4000/images/manifest.json?v=M44lzPylqQ">
-<link rel="mask-icon" href="http://0.0.0.0:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="apple-touch-icon" sizes="57x57" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://sanaz-tak.github.io/sanaz/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://sanaz-tak.github.io/sanaz/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
 <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
 <meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="http://0.0.0.0:4000/images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="http://0.0.0.0:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="msapplication-TileImage" content="https://sanaz-tak.github.io/sanaz/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://sanaz-tak.github.io/sanaz/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/academicons.css"/>
+<link rel="stylesheet" href="https://sanaz-tak.github.io/sanaz/assets/css/academicons.css"/>
 
 
 <!-- Support for MatJax -->
@@ -138,16 +140,16 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://0.0.0.0:4000/">Sanaz's Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://sanaz-tak.github.io/sanaz/">Sanaz's Homepage</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/portfolio/">Portfolio</a></li>
+            <li class="masthead__menu-item"><a href="https://sanaz-tak.github.io/sanaz/portfolio/">Portfolio</a></li>
           
             
             <li class="masthead__menu-item"><a href="https://scholar.google.com/citations?hl=en&amp;user=IcEFxs4AAAAJ">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="https://sanaz-tak.github.io/sanaz/teaching/">Teaching</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -177,7 +179,7 @@
     <div itemscope itemtype="http://schema.org/Person">
       <div class="author__avatar">
         
-          <img src="http://0.0.0.0:4000/images/profile.jpg" class="author__avatar" alt="Sanaz M. Takaghaj">
+          <img src="https://sanaz-tak.github.io/sanaz/images/profile.jpg" class="author__avatar" alt="Sanaz M. Takaghaj">
         
       </div>
 
@@ -261,7 +263,7 @@
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Markdown">
-    
+    <meta itemprop="description" content="Locations of key files/directories  Basic config options: _config.yml  Top navigation bar config: _data/navigation.yml  Single pages: _pages/  Collections of pages are .md or .html files in:          _publications/      _portfolio/      _posts/      _teaching/      _talks/        Footer: _includes/footer.html  Static files (like PDFs): /files/  Profile image (can set in _config.yml): images/profile.pngTips and hints  Name a file “.md” to have it render in markdown, name it “.html” to render in HTML.  Go to the commit list (on your repo) to find the last version Github built with Jekyll.          Green check: successful build      Orange circle: building      Red X: error      No icon: not built        Academic Pages uses Jekyll Kramdown, GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences.          Some of emoji supported on GitHub should be supposed via the Jemoji plugin :computer:.      The best list of the supported emoji can be found in the Emojis for Jekyll via Jemoji blog post.      Resources  Liquid syntax guide  MathJax DocumentationMathJaxSupport for MathJax Version 3.0 is included in the template:[\displaylines{\nabla \cdot E= \frac{\rho}{\epsilon_0} \\nabla \cdot B=0 \\nabla \times E= -\partial_tB \\nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)}]The default delimiters of $$...$$ and \\[...\\] are supported for displayed mathematics, while \\(...\\) should be used for in-line mathematics (ex., \(a^2 + b^2 = c^2\))Note that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although some workarounds exist.Markdown guideAcademic Pages uses kramdown for Markdown rendering, which has some differences from other Markdown implementations such as GitHub’s. In addition to this guide, please see the kramdown Syntax page for full documentation.Header threeHeader fourHeader fiveHeader sixBlockquotesSingle line blockquote:  Quotes are cool.TablesTable 1            Entry      Item                         John Doe      2016      Description of the item in the list              Jane Doe      2019      Description of the item in the list              Doe Doe      2022      Description of the item in the list      Table 2            Header1      Header2      Header3                  cell1      cell2      cell3              cell4      ce                     ll5      cell6                         cell1      cell2      cell3              cell4      cell5      cell6                  Foot1      Foot2      Foot3      Definition Lists  Definition List Title  Definition list division.  Startup  A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.  #dowork  Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.  Do It Live  I’ll let Bill O’Reilly explain this one.Unordered Lists (Nested)  List item one          List item one                  List item one          List item two          List item three          List item four                    List item two      List item three      List item four        List item two  List item three  List item fourOrdered List (Nested)  List item one          List item one                  List item one          List item two          List item three          List item four                    List item two      List item three      List item four        List item two  List item three  List item fourButtonsMake any link standout more when applying the .btn class.NoticesBasic notices or call-outs are supported using the following syntax:**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.{: .notice}which wil render as:Watch out! You can also add notices by appending {: .notice} to the line following paragraph.FootnotesFootnotes can be useful for clarifying points in the text, or citing information.1 Markdown support numeric footnotes, as well as text as long as the values are unique.2This is the regular text.[^1] This is more regular text.[^note][^1]: This is the footnote itself.[^note]: This is another footnote.HTML TagsAddress Tag  1 Infinite Loop Cupertino, CA 95014 United StatesAnchor Tag (aka. Link)This is an example of a link.Abbreviation TagThe abbreviation CSS stands for “Cascading Style Sheets”.Cite Tag“Code is poetry.” —AutomatticCode TagYou will learn later on in these tests that word-wrap: break-word; will be your best friend.You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:print('Hello World!')or R:print(&quot;Hello World!&quot;, quote = FALSE)Details Tag (collapsible sections)The HTML &lt;details&gt; tag works well with Markdown and allows you to include collapsible sections, see W3Schools for more information on how to use the tag.  Collapsed by default  This section was collapsed by default!The source code:&lt;details&gt;  &lt;summary&gt;Collapsed by default&lt;/summary&gt;  This section was collapsed by default!&lt;/details&gt;Or, you can leave a section open by default by including the open attribute in the tag:  Open by default  This section is open by default thanks to open in the &lt;details open&gt; tag!Emphasize TagThe emphasize tag should italicize text.Insert TagThis tag should denote inserted text.Keyboard TagThis scarcely known tag emulates keyboard text, which is usually styled like the &lt;code&gt; tag.Preformatted TagThis tag styles large blocks of code..post-title {  margin: 0 0 5px;  font-weight: bold;  font-size: 38px;  line-height: 1.2;  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;}Quote TagDevelopers, developers, developers… –Steve BallmerStrike TagThis tag will let you strikeout text.Strong TagThis tag shows bold text.Subscript TagGetting our science styling on with H2O, which should push the “2” down.Superscript TagStill sticking with science and Isaac Newton’s E = MC2, which should lift the 2 up.Variable TagThis allows you to denote variables.FootnotesThe footnotes in the page will be returned following this line, return to the section on Markdown Footnotes.            Such as this footnote. ↩              When using text for footnotes markers, no spaces are permitted in the name. ↩      ">
     
     
 
@@ -668,6 +670,17 @@
       
 
 
+  <nav class="pagination">
+    
+      <a href="https://sanaz-tak.github.io/sanaz/cv/" class="pagination--pager" title="CV
+">Previous</a>
+    
+    
+      <a href="https://sanaz-tak.github.io/sanaz/non-menu-page/" class="pagination--pager" title="Page not in menu
+">Next</a>
+    
+  </nav>
+
     </div>
 
     
@@ -702,21 +715,21 @@
     
     
     
-    <li><a href="http://0.0.0.0:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="https://sanaz-tak.github.io/sanaz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div>
 
 
 <div class="page__footer-copyright">
-  © 2025 Your Name, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br>
-  Site last updated 2025-08-22
+  © 2025 Sanaz M. Takaghaj, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br>
+  Site last updated 2025-08-23
 </div>
 
       </footer>
     </div>
 
-    <script src="http://0.0.0.0:4000/assets/js/main.min.js"></script>
+    <script src="https://sanaz-tak.github.io/sanaz/assets/js/main.min.js"></script>
 
 
 

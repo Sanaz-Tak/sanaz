@@ -1,11 +1,16 @@
 ---
-layout: archive
+layout: page
 title: "Page Archive"
 permalink: /page-archive/
 author_profile: false
 ---
 
 {% include base_path %}
-{% for post in site.pages %}
-  {% include archive-single.html %}
+
+All pages on this website.
+
+{% for page in site.pages %}
+  {% unless page.hidden or page.url contains "404" %}
+    <p><a href="{{ base_path }}{{ page.url }}">{{ page.title | default: page.name | replace: ".md", "" | replace: ".html", "" }}</a></p>
+  {% endunless %}
 {% endfor %}

@@ -32,10 +32,12 @@
 <meta property="og:title" content="Portfolio">
 
 
-  <link rel="canonical" href="http://0.0.0.0:4000/portfolio/">
-  <meta property="og:url" content="http://0.0.0.0:4000/portfolio/">
+  <link rel="canonical" href="https://sanaz-tak.github.io/sanaz/portfolio/">
+  <meta property="og:url" content="https://sanaz-tak.github.io/sanaz/portfolio/">
 
 
+
+  <meta property="og:description" name="description" content="      ViT-LCA (Presented at AICAS 2025):          This work introduces ViT-LCA, a novel model that integrates Vision Transformers (ViT) with the Locally Competitive Algorithm (LCA) to enable energy-efficient deployment on neuromorphic platforms. By leveraging ViT’s self-attention mechanisms to extract contextual embeddings and combining them with LCA’s sparse coding within a single-layer spiking neural network, ViT-LCA achieves high classification accuracy on datasets such as CIFAR-10, CIFAR-100, and ImageNet-1K. The model extracts self-attention representations once and stores them in non-volatile memory, facilitating in-memory computation and significantly reducing energy consumption compared to other spiking vision transformer models. The approach eliminates the need for dictionary training, as required in traditional LCA, and demonstrates compatibility with memristor crossbar arrays for efficient neuromorphic implementation. ViT-LCA’s performance highlights its potential for low-power, high-efficiency AI systems, paving the way for further exploration of transformer-based architectures in neuromorphic computing.📄 Read the full paper (PDF)            PointLCA-Net (Presented at IJCNN 2025):          PointLCA-Net leverages the strengths of PointNets for extracting robust features from input point sets, while utilizing the efficiency of Exemplar LCA Encoder-Decoder for low-power Computer Vision applications.PointLCA-Net leverages the strengths of PointNets for extracting robust features from sparse spatio-temporal point cloud data, while utilizing the efficiency of the Exemplar Locally Competitive Algorithm (LCA) Encoder-Decoder for energy-efficient deployment on neuromorphic systems. By processing Dynamic Vision Sensor (DVS) event streams as 3D point clouds, PointLCA-Net extracts geometric and temporal features using PointNet architectures, which are then encoded and decoded by the Exemplar LCA for classification tasks. The model achieves high recognition accuracies of up to 94.41% on the DVS128 dataset, 99.01% on NMNIST, and 78.46% on Spiking Heidelberg Digits (SHD), surpassing other spiking neural network approaches for point clouds. Features are extracted once and stored in non-volatile memory, enabling in-memory computation with up to 99.54% reduction in computational effort during inference. PointLCA-Net’s compatibility with neuromorphic hardware, such as RRAM crossbar arrays, and its low energy consumption (e.g., 0.065 mJ on DVS128) make it highly suitable for energy-constrained applications like robotics and unmanned aerial vehicles. This work demonstrates a scalable, neuromorphic-friendly approach for processing complex spatio-temporal signals, offering significant potential for low-power computer vision systems.📄 Read the full paper (PDF)            D-SELD (Published in Neuromorphic Computing and Engineering Journal):          This work proposes D-SELD, an innovative Exemplar LCA Encoder-Decoder technique that leverages sparse coding and the Locally Competitive Algorithm (LCA) to provide a scalable training algorithm tailored for low-power neuromorphic platforms. By constructing a dictionary directly from features extracted from training datasets, D-SELD eliminates the computationally expensive dictionary training process, enabling efficient deployment on neuromorphic hardware. The approach achieves top-1 accuracies of 99.99% on MNIST, 94.98% on CIFAR-10, 79.32% on CIFAR-100, and 80.79% on ImageNet LSVRC2012, outperforming or matching state-of-the-art spiking neural network methods without relying on error backpropagation. D-SELD’s sparsity, driven by firing neurons inhibiting non-firing ones, reduces computational and memory demands, with inference workloads as low as 0.25 GFLOPs using VGG-16 features. The framework supports incremental addition of new training examples, making it adaptable to datasets of any size. Compatibility with memristor-based crossbar arrays further enhances its suitability for energy-efficient, neuromorphic computing applications, demonstrating significant potential for scalable, low-power AI systems. 📄 Read the published article            Rouser: A Threshold Learning Rule for Robust SNN Training (Presented at AICAS 2025):          This work introduces ROUSER, a novel approach that promotes neuron spiking thresholds from hyperparameters to trainable parameters in spiking neural networks, addressing the critical issue of dead neurons during training. By integrating adaptive threshold learning with surrogate gradient-based error backpropagation, ROUSER enhances training dynamics, achieving up to a 30% reduction in training epochs and a 2% increase in top-1 accuracy on neuromorphic datasets, including NMNIST (95.2%), DVS128 (86.6%), and Spiking Heidelberg Digits (78.14%). Unlike traditional methods that rely on offline grid searches for threshold tuning, ROUSER dynamically adjusts thresholds, mitigating the non-differentiable nature of spiking functions and improving convergence robustness. The approach significantly reduces dead neuron occurrences, enabling more effective feature representation and faster training. Evaluated using the SLAYER framework from Lava-DL, ROUSER demonstrates superior performance over baseline SNN training, highlighting its potential for scalable, energy-efficient neuromorphic computing applications.📄 Read the full paper (PDF)      ">
 
 
 
@@ -60,8 +62,8 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Person",
-      "name" : "Your Name",
-      "url" : "http://0.0.0.0:4000",
+      "name" : "Sanaz M. Takaghaj",
+      "url" : "https://sanaz-tak.github.io/sanaz",
       "sameAs" : null
     }
   </script>
@@ -74,7 +76,7 @@
 <!-- end SEO -->
 
 
-<link href="http://0.0.0.0:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Sanaz's Homepage Feed">
+<link href="https://sanaz-tak.github.io/sanaz/feed.xml" type="application/atom+xml" rel="alternate" title="Sanaz's Homepage Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -86,35 +88,35 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/main.css">
-<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/custom.css">
+<link rel="stylesheet" href="https://sanaz-tak.github.io/sanaz/assets/css/main.css">
+<link rel="stylesheet" href="https://sanaz-tak.github.io/sanaz/assets/css/custom.css">
 
 <meta http-equiv="cleartype" content="on">
     
 
 <!-- start custom head snippets -->
 
-<link rel="apple-touch-icon" sizes="57x57" href="http://0.0.0.0:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="60x60" href="http://0.0.0.0:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="72x72" href="http://0.0.0.0:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="76x76" href="http://0.0.0.0:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="114x114" href="http://0.0.0.0:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="120x120" href="http://0.0.0.0:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="144x144" href="http://0.0.0.0:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="152x152" href="http://0.0.0.0:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="180x180" href="http://0.0.0.0:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
-<link rel="icon" type="image/png" href="http://0.0.0.0:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
-<link rel="manifest" href="http://0.0.0.0:4000/images/manifest.json?v=M44lzPylqQ">
-<link rel="mask-icon" href="http://0.0.0.0:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="apple-touch-icon" sizes="57x57" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sanaz-tak.github.io/sanaz/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://sanaz-tak.github.io/sanaz/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://sanaz-tak.github.io/sanaz/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://sanaz-tak.github.io/sanaz/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
 <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
 <meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="http://0.0.0.0:4000/images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="http://0.0.0.0:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="msapplication-TileImage" content="https://sanaz-tak.github.io/sanaz/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://sanaz-tak.github.io/sanaz/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/academicons.css"/>
+<link rel="stylesheet" href="https://sanaz-tak.github.io/sanaz/assets/css/academicons.css"/>
 
 
 <!-- Support for MatJax -->
@@ -126,7 +128,6 @@
   </head>
 
   <body>
-
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
@@ -138,16 +139,16 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://0.0.0.0:4000/">Sanaz's Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://sanaz-tak.github.io/sanaz/">Sanaz's Homepage</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/portfolio/">Portfolio</a></li>
+            <li class="masthead__menu-item"><a href="https://sanaz-tak.github.io/sanaz/portfolio/">Portfolio</a></li>
           
             
             <li class="masthead__menu-item"><a href="https://scholar.google.com/citations?hl=en&user=IcEFxs4AAAAJ">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="https://sanaz-tak.github.io/sanaz/teaching/">Teaching</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -158,189 +159,61 @@
 
     
 
-
-
-<div id="main" role="main" class="no-sidebar-layout">
-  <div class="archive full-width-archive">
     
+
+    <div id="main" role="main" class="no-sidebar-layout">
+      <div class="archive full-width-archive">
+        
 
 <div class="portfolio-page">
 
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="portfolio-item">
+    <h3><a href="https://sanaz-tak.github.io/sanaz/portfolio/portfolio-1/">ViT-LCA (Presented at AICAS 2025):</a></h3>
     
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        ViT-LCA (Presented at AICAS 2025):
-      
-    </h2>
-    
-    
-
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p><img src="../images/ViTLCA.png" alt="" />
+      <p><p><img src="../images/ViTLCA.png" alt="" />
 This work introduces ViT-LCA, a novel model that integrates Vision Transformers (ViT) with the Locally Competitive Algorithm (LCA) to enable energy-efficient deployment on neuromorphic platforms. By leveraging ViT’s self-attention mechanisms to extract contextual embeddings and combining them with LCA’s sparse coding within a single-layer spiking neural network, ViT-LCA achieves high classification accuracy on datasets such as CIFAR-10, CIFAR-100, and ImageNet-1K. The model extracts self-attention representations once and stores them in non-volatile memory, facilitating in-memory computation and significantly reducing energy consumption compared to other spiking vision transformer models. The approach eliminates the need for dictionary training, as required in traditional LCA, and demonstrates compatibility with memristor crossbar arrays for efficient neuromorphic implementation. ViT-LCA’s performance highlights its potential for low-power, high-efficiency AI systems, paving the way for further exploration of transformer-based architectures in neuromorphic computing.
 <a href="../files/ViT_LCA.pdf">📄 Read the full paper (PDF)</a></p>
 </p>
     
+  </div>
+
+  <div class="portfolio-item">
+    <h3><a href="https://sanaz-tak.github.io/sanaz/portfolio/portfolio-2/">PointLCA-Net (Presented at IJCNN 2025):</a></h3>
     
-    
-
-  </article>
-</div>
-
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        PointLCA-Net (Presented at IJCNN 2025):
-      
-    </h2>
-    
-    
-
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p><img src="../images/PointLCA.png" alt="" />
+      <p><p><img src="../images/PointLCA.png" alt="" />
 PointLCA-Net leverages the strengths of PointNets for extracting robust features from input point sets, while utilizing the efficiency of Exemplar LCA Encoder-Decoder for low-power Computer Vision applications.<br />
 PointLCA-Net leverages the strengths of PointNets for extracting robust features from sparse spatio-temporal point cloud data, while utilizing the efficiency of the Exemplar Locally Competitive Algorithm (LCA) Encoder-Decoder for energy-efficient deployment on neuromorphic systems. By processing Dynamic Vision Sensor (DVS) event streams as 3D point clouds, PointLCA-Net extracts geometric and temporal features using PointNet architectures, which are then encoded and decoded by the Exemplar LCA for classification tasks. The model achieves high recognition accuracies of up to 94.41% on the DVS128 dataset, 99.01% on NMNIST, and 78.46% on Spiking Heidelberg Digits (SHD), surpassing other spiking neural network approaches for point clouds. Features are extracted once and stored in non-volatile memory, enabling in-memory computation with up to 99.54% reduction in computational effort during inference. PointLCA-Net’s compatibility with neuromorphic hardware, such as RRAM crossbar arrays, and its low energy consumption (e.g., 0.065 mJ on DVS128) make it highly suitable for energy-constrained applications like robotics and unmanned aerial vehicles. This work demonstrates a scalable, neuromorphic-friendly approach for processing complex spatio-temporal signals, offering significant potential for low-power computer vision systems.
 <a href="../files/PointLCA-Net.pdf">📄 Read the full paper (PDF)</a></p>
 </p>
     
+  </div>
+
+  <div class="portfolio-item">
+    <h3><a href="https://sanaz-tak.github.io/sanaz/portfolio/portfolio-3/">D-SELD (Published in Neuromorphic Computing and Engineering Journal):</a></h3>
     
-    
-
-  </article>
-</div>
-
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        D-SELD (Published in Neuromorphic Computing and Engineering Journal):
-      
-    </h2>
-    
-    
-
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p><img src="../images/DSELD.png" alt="" />
+      <p><p><img src="../images/DSELD.png" alt="" />
 This work proposes D-SELD, an innovative Exemplar LCA Encoder-Decoder technique that leverages sparse coding and the Locally Competitive Algorithm (LCA) to provide a scalable training algorithm tailored for low-power neuromorphic platforms. By constructing a dictionary directly from features extracted from training datasets, D-SELD eliminates the computationally expensive dictionary training process, enabling efficient deployment on neuromorphic hardware. The approach achieves top-1 accuracies of 99.99% on MNIST, 94.98% on CIFAR-10, 79.32% on CIFAR-100, and 80.79% on ImageNet LSVRC2012, outperforming or matching state-of-the-art spiking neural network methods without relying on error backpropagation. D-SELD’s sparsity, driven by firing neurons inhibiting non-firing ones, reduces computational and memory demands, with inference workloads as low as 0.25 GFLOPs using VGG-16 features. The framework supports incremental addition of new training examples, making it adaptable to datasets of any size. Compatibility with memristor-based crossbar arrays further enhances its suitability for energy-efficient, neuromorphic computing applications, demonstrating significant potential for scalable, low-power AI systems. <a href="https://iopscience.iop.org/article/10.1088/2634-4386/ad9e2c">📄 Read the published article</a></p>
 </p>
     
+  </div>
+
+  <div class="portfolio-item">
+    <h3><a href="https://sanaz-tak.github.io/sanaz/portfolio/portfolio-4/">Rouser: A Threshold Learning Rule for Robust SNN Training (Presented at AICAS 2025):</a></h3>
     
-    
-
-  </article>
-</div>
-
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        Rouser: A Threshold Learning Rule for Robust SNN Training (Presented at AICAS 2025):
-      
-    </h2>
-    
-    
-
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p><img src="../images/SNN-BPTT.png" alt="" />
+      <p><p><img src="../images/SNN-BPTT.png" alt="" />
 This work introduces ROUSER, a novel approach that promotes neuron spiking thresholds from hyperparameters to trainable parameters in spiking neural networks, addressing the critical issue of dead neurons during training. By integrating adaptive threshold learning with surrogate gradient-based error backpropagation, ROUSER enhances training dynamics, achieving up to a 30% reduction in training epochs and a 2% increase in top-1 accuracy on neuromorphic datasets, including NMNIST (95.2%), DVS128 (86.6%), and Spiking Heidelberg Digits (78.14%). Unlike traditional methods that rely on offline grid searches for threshold tuning, ROUSER dynamically adjusts thresholds, mitigating the non-differentiable nature of spiking functions and improving convergence robustness. The approach significantly reduces dead neuron occurrences, enabling more effective feature representation and faster training. Evaluated using the SLAYER framework from Lava-DL, ROUSER demonstrates superior performance over baseline SNN training, highlighting its potential for scalable, energy-efficient neuromorphic computing applications.
 <a href="../files/ROUSER.pdf">📄 Read the full paper (PDF)</a></p>
 </p>
     
-    
-    
-
-  </article>
-</div>
-
-
-</div>
-
-
   </div>
-</div> 
 
-    <div class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-<div class="page__footer-sitemap">
-  <a href="/sitemap/" class="btn btn--primary">Sitemap</a>
-</div>
-<!-- end custom footer snippets -->
-
-        
-
-
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-    
-      <li><a href="http://github.com/Sanaz-Tak"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    
-    
-    
-    <li><a href="http://0.0.0.0:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-    
-  </ul>
 </div>
 
 
-<div class="page__footer-copyright">
-  &copy; 2025 Your Name, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2025-08-22
-</div>
-
-      </footer>
+      </div>
     </div>
 
-    <script src="http://0.0.0.0:4000/assets/js/main.min.js"></script>
-
+    <script src="https://sanaz-tak.github.io/sanaz/assets/js/main.min.js"></script>
 
 
 

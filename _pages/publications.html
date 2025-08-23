@@ -1,8 +1,8 @@
 ---
-layout: archive
+layout: page
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% if site.author.googlescholar %}
@@ -23,12 +23,22 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      <div class="publication-item">
+        <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <div class="publication-item">
+      <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+    </div>
   {% endfor %}
 {% endif %}
 

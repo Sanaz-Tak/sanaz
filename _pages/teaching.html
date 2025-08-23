@@ -8,6 +8,11 @@ permalink: /teaching/
 
 <div class="teaching-page">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <div class="teaching-item">
+    <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt }}</p>
+    {% endif %}
+  </div>
 {% endfor %}
 </div>
