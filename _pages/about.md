@@ -1,4 +1,5 @@
 ---
+layout: page
 permalink: /
 title: "Dr. Sanaz M. Takaghaj" 
 subtitle: "pronounced: Saa-Naaz"
