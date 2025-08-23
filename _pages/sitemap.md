@@ -1,37 +1,45 @@
 ---
-layout: archive
+layout: page
 title: "Sitemap"
 permalink: /sitemap/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+A clean navigation guide to all the main sections of this website. For search engines, an [XML version]({{ base_path }}/sitemap.xml) is also available.
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
+## Main Pages
+{% for page in site.pages %}
+  {% unless page.hidden or page.url contains "404" or page.url contains "sitemap" %}
+    - [{{ page.title | default: page.name | replace: ".md", "" | replace: ".html", "" }}]({{ base_path }}{{ page.url }})
   {% endunless %}
 {% endfor %}
+
+## Blog Posts
+{% for post in site.posts limit:10 %}
+  - [{{ post.title }}]({{ base_path }}{{ post.url }}) - {{ post.date | date: "%B %Y" }}
+{% endfor %}
+{% if site.posts.size > 10 %}
+  - *... and [{{ site.posts.size | minus: 10 }} more posts](/posts/)*
+{% endif %}
+
+## Publications
+{% for pub in site.publications %}
+  - [{{ pub.title }}]({{ base_path }}{{ pub.url }}) - {{ pub.date | date: "%Y" }}
+{% endfor %}
+
+## Portfolio
+{% for item in site.portfolio %}
+  - [{{ item.title }}]({{ base_path }}{{ item.url }})
+{% endfor %}
+
+## Teaching
+{% for course in site.teaching %}
+  - [{{ course.title }}]({{ base_path }}{{ course.url }})
+{% endfor %}
+
+## Talks
+{% for talk in site.talks %}
+  - [{{ talk.title }}]({{ base_path }}{{ talk.url }}) - {{ talk.date | date: "%B %Y" }}
 {% endfor %}

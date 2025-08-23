@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.8'
 end
 
-gem 'github-pages'
+# Comment out github-pages for local development
+# gem 'github-pages'
