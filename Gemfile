@@ -1,13 +1,9 @@
 source 'https://rubygems.org'
 
-# For GitHub Pages deployment
-gem 'github-pages', group: :jekyll_plugins
+# For GitHub Pages deployment (includes all necessary Jekyll plugins)
+gem 'github-pages'
 
-# For local development
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jemoji'
+# For local development (optional)
+group :development do
   gem 'webrick', '~> 1.8'
 end

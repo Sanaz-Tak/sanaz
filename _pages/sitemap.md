@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: collection-page
 title: "Sitemap"
 permalink: /sitemap/
 author_profile: false

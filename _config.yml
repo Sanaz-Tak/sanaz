@@ -242,7 +242,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _pages (excluding homepage which uses custom layout)
   - scope:
       path: ""
       type: pages
@@ -299,7 +299,7 @@ sass:
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
+# Plugins (included automatically by github-pages gem)
 plugins:
   - jekyll-feed
   - jekyll-gist
