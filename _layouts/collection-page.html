@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main" class="no-sidebar-layout">
+  <div class="archive full-width-archive">
+    {{ content }}
+  </div>
+</div>
+
+<!-- Override footer to hide it for collection pages -->
+<style>
+  .page__footer {
+    display: none !important;
+  }
+</style>
