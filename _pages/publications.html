@@ -6,41 +6,17 @@ author_profile: false
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    <h2>My Publications</h2>
+    <p>For a complete and up-to-date list of my publications, please visit my <a href="{{site.author.googlescholar}}" class="btn btn--primary">Google Scholar profile</a>.</p>
+  </div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      <div class="publication-item">
-        <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
-        {% if post.excerpt %}
-          <p>{{ post.excerpt }}</p>
-        {% endif %}
-      </div>
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    <div class="publication-item">
-      <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
-      {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
-      {% endif %}
-    </div>
-  {% endfor %}
-{% endif %}
+<div class="publications-page">
+  <p><em>Note: This page provides a brief overview. For detailed publication information, citations, and metrics, please visit my <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.</em></p>
+</div>
 
 
 
