@@ -17,9 +17,9 @@ A clean navigation guide to all the main sections of this website. For search en
 
 
 ## Publications
-{% for pub in site.publications %}
-  - [{{ pub.title }}]({{ base_path }}{{ pub.url }}) - {{ pub.date | date: "%Y" }}
-{% endfor %}
+- [View all publications on Google Scholar]({{ site.author.googlescholar }})
+
+*Note: For a complete list of publications, visit my [Google Scholar profile]({{ site.author.googlescholar }}).*
 
 ## Portfolio
 {% for item in site.portfolio %}
