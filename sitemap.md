@@ -22,11 +22,8 @@ A clean navigation guide to all the main sections of this website. For search en
 {% endfor %}
 
 ## Publications
-{% for pub in site.publications %}
-  - [{{ pub.title }}]({{ base_path }}{{ pub.url }}) - {{ pub.date | date: "%Y" }}
-{% endfor %}
+- [View all publications on Google Scholar]({{ site.author.googlescholar }})
 
-*Note: You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).*
 
 ## Teaching
 {% for course in site.teaching %}
