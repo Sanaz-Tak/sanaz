@@ -12,19 +12,21 @@ A clean navigation guide to all the main sections of this website. For search en
 ## Main Pages
 - [Home]({{ base_path }}/)
 - [Portfolio]({{ base_path }}/portfolio/)
-- [Teaching]({{ base_path }}/teaching/)
 - [Publications]({{ base_path }}/publications/)
+- [Teaching]({{ base_path }}/teaching/)
 
-
-## Publications
-- [View all publications on Google Scholar]({{ site.author.googlescholar }})
-
-*Note: For a complete list of publications, visit my [Google Scholar profile]({{ site.author.googlescholar }}).*
 
 ## Portfolio
 {% for item in site.portfolio %}
   - [{{ item.title | remove: ":" }}]({{ base_path }}{{ item.url }})
 {% endfor %}
+
+## Publications
+{% for pub in site.publications %}
+  - [{{ pub.title }}]({{ base_path }}{{ pub.url }}) - {{ pub.date | date: "%Y" }}
+{% endfor %}
+
+*Note: You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).*
 
 ## Teaching
 {% for course in site.teaching %}
