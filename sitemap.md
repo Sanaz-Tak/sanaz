@@ -11,20 +11,10 @@ A clean navigation guide to all the main sections of this website. For search en
 
 ## Main Pages
 - [Home]({{ base_path }}/)
-- [About]({{ base_path }}/)
-- [CV]({{ base_path }}/cv/)
 - [Portfolio]({{ base_path }}/portfolio/)
 - [Teaching]({{ base_path }}/teaching/)
 - [Publications]({{ base_path }}/publications/)
-- [Talks]({{ base_path }}/talks/)
 
-## Blog Posts
-{% for post in site.posts limit:10 %}
-  - [{{ post.title }}]({{ base_path }}{{ post.url }}) - {{ post.date | date: "%B %Y" }}
-{% endfor %}
-{% if site.posts.size > 10 %}
-  - *... and [{{ site.posts.size | minus: 10 }} more posts](/posts/)*
-{% endif %}
 
 ## Publications
 {% for pub in site.publications %}
@@ -33,15 +23,10 @@ A clean navigation guide to all the main sections of this website. For search en
 
 ## Portfolio
 {% for item in site.portfolio %}
-  - [{{ item.title }}]({{ base_path }}{{ item.url }})
+  - [{{ item.title | remove: ":" }}]({{ base_path }}{{ item.url }})
 {% endfor %}
 
 ## Teaching
 {% for course in site.teaching %}
-  - [{{ course.title }}]({{ base_path }}{{ course.url }})
-{% endfor %}
-
-## Talks
-{% for talk in site.talks %}
-  - [{{ talk.title }}]({{ base_path }}{{ talk.url }}) - {{ talk.date | date: "%B %Y" }}
+  - [{{ course.title | remove: ":" }}]({{ base_path }}{{ course.url }})
 {% endfor %}
