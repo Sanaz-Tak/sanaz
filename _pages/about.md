@@ -14,5 +14,5 @@ I also hold an M.S. in Electrical and Computer Engineering with a specialization
 
 With extensive expertise in AI/ML, neuromorphic computing, computer vision, robotics, and control systems, I have contributed to interdisciplinary projects in both academia and industry, focusing on AI/ML training frameworks and advanced control algorithms.
 
-I am currently open to research and industry opportunities in AI/ML, robotics, and control systems. Feel free to [reach out](mailto:sanaz.takaghaj@gmail.com).
+I am currently open to research and industry opportunities in AI/ML, robotics, and control systems. Feel free to [reach out](mailto:{{ site.author.email }}).
 
