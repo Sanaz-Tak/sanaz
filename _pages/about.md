@@ -8,12 +8,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**I build brain-inspired neural networks that run AI on a fraction of the power.**
-I'm a research scientist and Assistant Teaching Professor of [Engineering Design](https://www.sedi.psu.edu) at [Penn State](https://www.psu.edu/), with a Ph.D. in [Computer Science and Engineering](https://www.eecs.psu.edu) from the same institution. My research specializes in artificial intelligence and machine learning (AI/ML), with a focus on brain-inspired and neuromorphic computing systems. I develop and optimize spatio-temporal neural networks for computer vision and robotics that deploy efficiently on low-power edge hardware.
-
-I also hold an M.S. in Electrical and Computer Engineering (Control Systems) from the [University of Calgary](https://schulich.ucalgary.ca/electrical-software), and a B.S. in Electrical and Computer Engineering from [Tabriz University](https://ece.tabrizu.ac.ir/en).
-
-With extensive expertise in AI/ML, neuromorphic computing, computer vision, robotics, and control systems, I've contributed to interdisciplinary projects across academia and industry, focusing on AI/ML training frameworks and advanced control algorithms.
+> **I work at the intersection of AI/ML, computer vision, and robotics — building systems that learn efficiently and run anywhere, from the data center to the edge.**
+>
+> I'm a research scientist and Assistant Teaching Professor of [Engineering Design](https://www.sedi.psu.edu) at [Penn State](https://www.psu.edu/), with a Ph.D. in [Computer Science and Engineering](https://www.eecs.psu.edu) from the same institution. My research spans machine learning, computer vision, robotics, and control systems, with a recurring focus on **energy-efficient, low-power AI** — including spatio-temporal and brain-inspired neural networks.
+>
+> My work has achieved up to a **99.5% reduction in inference computation** and energy as low as **0.065 mJ per inference**, with results presented at AICAS 2025 and IJCNN 2025 and published in *Neuromorphic Computing and Engineering*.
+>
+> I also hold an M.S. in Electrical and Computer Engineering (Control Systems) from the [University of Calgary](https://schulich.ucalgary.ca/electrical-software) and a B.S. in Electrical and Computer Engineering from [Tabriz University](https://ece.tabrizu.ac.ir/en). Across academia and industry, I've contributed to interdisciplinary projects spanning AI/ML training frameworks, computer vision, and advanced control algorithms.
 
 I am currently open to research and industry opportunities in AI/ML, robotics, and control systems. Feel free to [reach out](mailto:{{ site.author.email }}).
 
