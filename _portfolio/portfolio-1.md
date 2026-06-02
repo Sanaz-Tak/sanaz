@@ -1,6 +1,3 @@
----
-collection: portfolio
----
 ![](../images/ViTLCA.png)
 ### ViT-LCA — *AICAS 2025*
 
