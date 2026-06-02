@@ -15,6 +15,6 @@ redirect_from:
 > My work has achieved up to a **99.5% reduction in inference computation** and energy as low as **0.065 mJ per inference**, with results presented at AICAS 2025 and IJCNN 2025 and published in *Neuromorphic Computing and Engineering*.
 >
 > I also hold an M.S. in Electrical and Computer Engineering (Control Systems) from the [University of Calgary](https://schulich.ucalgary.ca/electrical-software) and a B.S. in Electrical and Computer Engineering from [Tabriz University](https://ece.tabrizu.ac.ir/en). Across academia and industry, I've contributed to interdisciplinary projects spanning AI/ML training frameworks, computer vision, and advanced control algorithms.
-
-I am currently open to research and industry opportunities in AI/ML, robotics, and control systems. Feel free to [reach out](mailto:{{ site.author.email }}).
+>
+> *I am currently open to research and industry opportunities in AI/ML, robotics, and control systems. Feel free to [reach out](mailto:{{ site.author.email }}).*
 
