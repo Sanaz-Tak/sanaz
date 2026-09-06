@@ -1,7 +1,7 @@
 ---
 layout: homepage
 permalink: /
-title: "Dr. Sanaz M. Takaghaj" 
+title: "Sanaz M. Takaghaj, PhD" 
 subtitle: "pronounced: Saa-Naaz"
 author_profile: true
 redirect_from: 
