@@ -1,5 +1,5 @@
 ---
-title: "D-SELD (Published in Neuromorphic Computing and Engineering Journal):"
+title: "D-SELD (Published in Neuromorphic Computing and Engineering Journal 2024):"
 collection: portfolio
 ---
 <img src="../images/DSELD.png" class="portfolio-thumb" alt="D-SELD architecture diagram">
