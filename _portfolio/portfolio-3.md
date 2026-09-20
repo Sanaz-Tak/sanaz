@@ -1,5 +1,5 @@
 ---
-title: "D-SELD (Published in Neuromorphic Computing and Engineering Journal):"
+title: "D-SELD (Published in Neuromorphic Computing and Engineering Journal 2024):"
 collection: portfolio
 date: 2024-01-01
 ---
