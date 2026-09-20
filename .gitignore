@@ -1,0 +1,3 @@
+# Standalone project folders that live here for convenience but have their own git history
+vlm-scene-understanding/
+vlm_pipeline.py
