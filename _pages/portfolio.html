@@ -10,7 +10,7 @@ permalink: /portfolio/
 {% assign sorted_portfolio = site.portfolio | sort: 'date' | reverse %}
 {% for post in sorted_portfolio %}
   <div class="portfolio-item">
-    <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+    <h3>{{ post.title }}</h3>
     {% if post.excerpt %}
       <p>{{ post.excerpt }}</p>
     {% endif %}
